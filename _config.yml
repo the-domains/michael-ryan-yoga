@@ -1,13 +1,26 @@
-layout_spectrum: 1
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+typography_spectrum: 0.6702509
 color:
   saturation: 0.3655914
-  brandStrength: 0.5215054
+  brandStrength: 0.4874552
   lightness: 0.5088282
   brandColors:
-    - '#151517'
-    - '#BDBCBE'
-    - '#DFDFE1'
-    - '#5B5B5D'
+    - '#29251F'
+    - '#E2DFD8'
+    - '#7F5442'
+    - '#447F88'
+    - '#DEE887'
   rhythmicContrast: 0.7936538
-typography_spectrum: 0.6702509
+layout_spectrum: 1
 name: Michael Ryan Yoga
